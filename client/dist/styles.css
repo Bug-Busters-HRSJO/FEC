@@ -17,3 +17,85 @@
   border: 1px solid black;
   margin: 10px;
 }
+
+.overview {
+  display: grid;
+  position: relative
+}
+
+.image-gallery {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+
+}
+
+.preview {
+  display: block;
+  max-width:500px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+.thumbnails {
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  max-width:100px;
+  max-height:100px;
+  margin:5px;
+}
+
+/* .category {
+
+}
+
+.name {
+
+} */
+
+.cart {
+  float: right
+}
+
+.price {
+  float:right
+}
+
+.price-sale {
+  float:right;
+  color:red
+}
+
+.styles {
+  display: flex;
+  overflow: scroll;
+  width: 500px;
+  height: auto;
+  float: right;
+}
+.styles-box {
+  float: right;
+  width: 500px;
+  height: auto;
+}
+
+#style-pic {
+  height:100px;
+  width:100px;
+  margin:5px;
+  border-radius: 50%;
+}
+
+#size-select {
+  float: right;
+}
+
+#quantity-select {
+  float: right;
+}
+
