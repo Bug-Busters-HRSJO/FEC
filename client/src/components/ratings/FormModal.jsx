@@ -119,7 +119,7 @@ const FormModal = (props) => {
         <h4>About the {props.productName}</h4>
         <div>
           <label>Rating:</label> <RatingSelector onChange={val => handleChange(val, 'rating')} default={-1} />
-          <div className={errData.char[k] ? 'form-error form-label' : 'form-label'}>{[null, 'Poor', 'Fair', 'Average', 'Good', 'Great'][formData.rating] || 'Select your overall rating'}</div>
+          <div className={errData.rating ? 'form-error form-label' : 'form-label'}>{[null, 'Poor', 'Fair', 'Average', 'Good', 'Great'][formData.rating] || 'Select your overall rating'}</div>
         </div>
         <div>
           <label>Recommended: </label>

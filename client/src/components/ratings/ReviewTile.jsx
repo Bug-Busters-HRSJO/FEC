@@ -9,6 +9,7 @@ const findLS = (id) => {
 const putLS = (id) => {
   localStorage.setItem('rid' + id, 'true');
 };
+//changes
 
 const ReviewTile = (props) => {
   const [imgModal, setModal] = useState(-1);
